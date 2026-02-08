@@ -52,7 +52,7 @@ const PricingSection = () => {
             <div className="mb-2">
               <span className="text-sm text-muted-foreground line-through">R$ 119,90</span>
               <div className="flex items-baseline gap-1">
-                <span className="text-4xl font-bold font-display text-foreground">R$24,90</span>
+                <span className="text-4xl font-bold font-display text-foreground">R$27</span>
               </div>
               <span className="text-sm text-muted-foreground">pagamento único</span>
             </div>
