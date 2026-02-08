@@ -4,10 +4,10 @@ import preview3 from "@/assets/material-preview-3.png";
 import preview4 from "@/assets/material-preview-4.png";
 
 const previews = [
-  { src: preview1, alt: "Sumário da Apostila" },
-  { src: preview2, alt: "Conteúdo de Pedagogia" },
-  { src: preview3, alt: "Questões Comentadas" },
-  { src: preview4, alt: "Cronograma de Estudo" },
+  { src: preview1, alt: "Leitura e Interpretação de Textos" },
+  { src: preview2, alt: "Pronomes - Língua Portuguesa" },
+  { src: preview3, alt: "Conjunções e Dicas" },
+  { src: preview4, alt: "Cronograma de Estudos" },
 ];
 
 const MaterialPreview = () => (
