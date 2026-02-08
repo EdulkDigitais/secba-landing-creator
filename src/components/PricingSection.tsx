@@ -12,7 +12,7 @@ const PricingSection = () => {
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {/* Plan 1 */}
+          {/* Plan 1 - Basic */}
           <div className="bg-card border border-border rounded-2xl p-8 flex flex-col">
             <h3 className="font-display text-xl font-bold">Apostila Completa</h3>
             <p className="text-sm text-muted-foreground mb-6">Nível Médio/Superior</p>
@@ -25,8 +25,8 @@ const PricingSection = () => {
             </div>
             <ul className="space-y-3 mb-8 flex-1">
               {[
-                "Apostila completa conforme edital",
-                "Material atualizado 2026",
+                "Apostilas completas",
+                "Plano de estudo",
                 "Acesso digital imediato",
                 "Pode imprimir",
                 "Garantia de 7 dias",
@@ -37,18 +37,23 @@ const PricingSection = () => {
                 </li>
               ))}
             </ul>
-            <button className="w-full btn-outline-hero text-base py-3">
+            <a 
+              href="https://pay.wiapy.com/xIh0qIqr8K" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full btn-outline-hero text-base py-3 text-center"
+            >
               COMPRAR AGORA
-            </button>
+            </a>
           </div>
 
-          {/* Plan 2 - Featured */}
+          {/* Plan 2 - Complete */}
           <div className="relative bg-card border-2 border-primary rounded-2xl p-8 flex flex-col glow-primary">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wide">
               Mais Vendido
             </div>
             <h3 className="font-display text-xl font-bold">Combo Completo</h3>
-            <p className="text-sm text-muted-foreground mb-6">Apostila + Questões + Resumos</p>
+            <p className="text-sm text-muted-foreground mb-6">Apostila + Questões + Videoaulas</p>
             <div className="mb-2">
               <span className="text-sm text-muted-foreground line-through">R$ 119,90</span>
               <div className="flex items-baseline gap-1">
@@ -61,10 +66,11 @@ const PricingSection = () => {
             </div>
             <ul className="space-y-3 mb-8 flex-1">
               {[
-                "Apostila completa conforme edital",
-                "400 questões focadas IBFC",
-                "Material de resumos comentados",
-                "Material atualizado 2026",
+                "Apostilas completas",
+                "Plano de estudo",
+                "Videoaulas",
+                "400 questões comentadas",
+                "Mapas mentais",
                 "Acesso digital imediato",
                 "Pode imprimir",
                 "Garantia de 7 dias",
@@ -75,10 +81,15 @@ const PricingSection = () => {
                 </li>
               ))}
             </ul>
-            <button className="w-full btn-cta flex items-center justify-center gap-2">
+            <a 
+              href="https://pay.wiapy.com/q2OhY0q2iR" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full btn-cta flex items-center justify-center gap-2"
+            >
               <Rocket className="w-5 h-5" />
               COMPRAR AGORA
-            </button>
+            </a>
           </div>
         </div>
 
