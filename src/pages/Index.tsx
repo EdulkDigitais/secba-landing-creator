@@ -6,10 +6,12 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
 import FAQSection from "@/components/FAQSection";
 import FinalCTA from "@/components/FinalCTA";
+import PurchaseNotifications from "@/components/PurchaseNotifications";
 
 const Index = () => {
   return (
     <main className="min-h-screen bg-background">
+      <PurchaseNotifications />
       <HeroSection />
       <FeaturesSection />
       <MaterialPreview />
