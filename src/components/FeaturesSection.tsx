@@ -8,12 +8,10 @@ import {
   Printer,
   ShieldCheck,
   Video,
-  Layers,
 } from "lucide-react";
 
 const features = [
   { icon: BookOpen, title: "Conteúdo Completo", desc: "Todo material necessário organizado por áreas do edital" },
-  { icon: Layers, title: "Todas as Áreas", desc: "Aborda todas as áreas cobradas no concurso" },
   { icon: GraduationCap, title: "Professores Especialistas", desc: "Elaborado por experts em concursos da IBFC" },
   { icon: RefreshCw, title: "Sempre Atualizado", desc: "Atualizado conforme o edital SEC BA 2026" },
   { icon: Smartphone, title: "Acesso Mobile", desc: "Estude no celular, tablet ou computador" },
