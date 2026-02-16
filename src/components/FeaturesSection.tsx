@@ -7,6 +7,7 @@ import {
   Infinity,
   Printer,
   ShieldCheck,
+  Video,
 } from "lucide-react";
 
 const features = [
@@ -16,6 +17,7 @@ const features = [
   { icon: Smartphone, title: "Acesso Mobile", desc: "Estude no celular, tablet ou computador" },
   { icon: Download, title: "Download Imediato", desc: "Receba no seu e-mail em poucos minutos" },
   { icon: Infinity, title: "Acesso Ilimitado", desc: "Estude quantas vezes quiser, para sempre" },
+  { icon: Video, title: "Videoaulas Exclusivas", desc: "Aulas em vídeo para reforçar o aprendizado" },
   { icon: Printer, title: "Pode Imprimir", desc: "Opção de estudar no papel se preferir" },
   { icon: ShieldCheck, title: "Garantia de 7 Dias", desc: "100% satisfação ou seu dinheiro de volta" },
 ];
