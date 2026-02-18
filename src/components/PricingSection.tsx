@@ -29,7 +29,7 @@ const PricingSection = () => {
                 "Plano de estudo",
                 "Acesso digital imediato",
                 "Pode imprimir",
-                "Garantia de 7 dias",
+                "Acesso vitalício",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-sm">
                   <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
@@ -73,7 +73,7 @@ const PricingSection = () => {
                 "Mapas mentais",
                 "Acesso digital imediato",
                 "Pode imprimir",
-                "Garantia de 7 dias",
+                "Acesso vitalício",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-sm">
                   <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
