@@ -26,7 +26,6 @@ const PricingSection = () => {
             <ul className="space-y-3 mb-8 flex-1">
               {[
                 "Apostilas completas",
-                "Plano de estudo",
                 "Acesso digital imediato",
                 "Pode imprimir",
                 "Acesso vitalício",
@@ -68,9 +67,11 @@ const PricingSection = () => {
               {[
                 "Apostilas completas",
                 "Plano de estudo",
-                "Videoaulas",
+                "Videoaulas com professores",
                 "400 questões comentadas",
                 "Mapas mentais",
+                "Marcadores de página",
+                "Simulados",
                 "Acesso digital imediato",
                 "Pode imprimir",
                 "Acesso vitalício",
