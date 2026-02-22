@@ -3,6 +3,7 @@ import FeaturesSection from "@/components/FeaturesSection";
 import MaterialPreview from "@/components/MaterialPreview";
 import SalarySection from "@/components/SalarySection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import GoogleReviewsSection from "@/components/GoogleReviewsSection";
 import PricingSection from "@/components/PricingSection";
 import FAQSection from "@/components/FAQSection";
 import FinalCTA from "@/components/FinalCTA";
@@ -17,6 +18,7 @@ const Index = () => {
       <MaterialPreview />
       <SalarySection />
       <TestimonialsSection />
+      <GoogleReviewsSection />
       <PricingSection />
       <FAQSection />
       <FinalCTA />
