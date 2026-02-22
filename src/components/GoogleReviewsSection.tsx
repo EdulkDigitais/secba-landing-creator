@@ -41,7 +41,9 @@ const reviews = [
 const GoogleReviewsSection = () => (
   <section className="section-padding bg-background">
     <div className="max-w-5xl mx-auto">
-      {/* Google Header */}
+      <h2 className="font-display text-3xl md:text-4xl font-bold text-center mb-8">
+        Veja nossas avaliações no Google:
+      </h2>
       <div className="flex flex-col items-center mb-10">
         <div className="flex items-center gap-2 mb-3">
           <svg viewBox="0 0 24 24" className="w-8 h-8" xmlns="http://www.w3.org/2000/svg">
