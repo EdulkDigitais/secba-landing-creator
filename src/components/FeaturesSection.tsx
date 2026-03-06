@@ -23,7 +23,7 @@ const features = [
 ];
 
 const FeaturesSection = () => (
-  <section className="section-padding">
+  <section className="section-padding mt-16 md:mt-24">
     <div className="max-w-6xl mx-auto">
       <h2 className="font-display text-3xl md:text-4xl font-bold text-center mb-4">
         Por que escolher nossa apostila?
