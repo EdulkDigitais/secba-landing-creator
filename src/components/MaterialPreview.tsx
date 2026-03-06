@@ -68,7 +68,7 @@ const MaterialPreview = () => {
   return (
     <section className="section-padding bg-card/50 overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <div className="inline-block bg-primary/10 text-primary font-semibold text-sm px-4 py-1.5 rounded-full mb-4 mx-auto block text-center">
+        <div className="bg-primary/10 text-primary font-semibold text-sm px-4 py-1.5 rounded-full mb-4 mx-auto w-fit text-center">
           MATERIAL COMPLETO PÓS EDITAL
         </div>
         <h2 className="font-display text-3xl md:text-4xl font-bold text-center mb-4">
