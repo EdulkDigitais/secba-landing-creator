@@ -8,10 +8,12 @@ import PricingSection from "@/components/PricingSection";
 import FAQSection from "@/components/FAQSection";
 import FinalCTA from "@/components/FinalCTA";
 import PurchaseNotifications from "@/components/PurchaseNotifications";
+import TopCountdownBar from "@/components/TopCountdownBar";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background pt-10">
+      <TopCountdownBar />
       <PurchaseNotifications />
       <HeroSection />
       <FeaturesSection />
