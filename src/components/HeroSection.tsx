@@ -85,28 +85,6 @@ const HeroSection = () => {
           </button>
         </div>
 
-        {/* Countdown */}
-        <div className="bg-glass rounded-2xl p-6 max-w-md mx-auto animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-          <div className="text-xs uppercase tracking-widest text-accent font-semibold mb-3">
-            Oferta Limitada
-          </div>
-          <div className="flex justify-center gap-4">
-            {[
-              { value: pad(countdown.hours), label: "Horas" },
-              { value: pad(countdown.minutes), label: "Minutos" },
-              { value: pad(countdown.seconds), label: "Segundos" },
-            ].map((item, i) => (
-              <div key={i} className="flex items-center gap-4">
-                <div className="text-center">
-                  <div className="text-3xl font-bold font-display text-foreground">{item.value}</div>
-                  <div className="text-xs text-muted-foreground">{item.label}</div>
-                </div>
-                {i < 2 && <span className="text-2xl text-muted-foreground font-bold">:</span>}
-              </div>
-            ))}
-          </div>
-          <p className="text-xs text-muted-foreground mt-3">Preço promocional expira em breve!</p>
-        </div>
       </div>
     </section>
   );
